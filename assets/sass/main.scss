@@ -860,6 +860,7 @@
 		.image {
 			position: relative;
 			overflow: hidden;
+			margin-top: 20px;
 
 			img {
 				transition: ease-in-out 200ms transform;
@@ -881,9 +882,9 @@
 			height: 100%;
 			top: 0;
 			display: flex;
-			justify-content: center;
 			align-items: center;
 			flex-direction: column;
+			padding-top: 50px;
 
 			transition: ease-in-out 400ms opacity;
 
@@ -897,13 +898,28 @@
 
 			p {
 				width: 80%;
-				margin-top: 40px;
+				// margin-top: 40px;
 				font-weight: 400;
 			}
 		}
 
 		.image:hover .hover-text {
 			opacity: 0.9;
+		}
+
+		.links {
+			display: flex;
+
+			a, a:visited {
+				color: darken($pink, 5%);
+				text-decoration: none;
+				margin: 15px 15px 0 0;
+			}
+			
+			a:hover {
+				color: darken($pink, 15%);
+				text-decoration: underline;
+			}
 		}
 	}
 
@@ -917,6 +933,32 @@
 	#skills {
 		h2 {
 			margin-bottom: 40px;
+		}
+	}
+
+/* Contact */
+	#contact {
+		table {
+			text-align: left;
+			justify-content: center;
+			display: flex;
+		}
+		
+		th:first-child {
+			width: 250px;
+			height: 35px;
+		}
+
+		a, a:visited {
+			color: darken($pink, 5%);
+			text-decoration: none;
+			margin: 15px 15px 0 0;
+			font-weight: 400;
+		}
+		
+		a:hover {
+			color: darken($pink, 15%);
+			text-decoration: underline;
 		}
 	}
 
