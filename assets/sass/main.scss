@@ -724,7 +724,7 @@
 					&:hover {
 						.arrow {
 							width: 3em;
-							padding-right: 0.25em;
+							padding-right: 1.25em;
 						}
 					}
 				}
@@ -818,7 +818,7 @@
 		right: 0;
 		top: 50%;
 		margin-top: -1.375em;
-		width: 2.75em;
+		width: 2em;
 		height: 2.75em;
 		background: #000;
 		background: rgba(0, 0, 0, 0.75);
@@ -844,6 +844,63 @@
 			width: 3em;
 			padding-right: 0.25em;
 		}
+	}
+
+/* Projects */
+	#projects {
+
+		.project-list {
+			justify-content: center;
+			
+			& > .project-img {
+				width: 80%;
+			}	
+		}
+
+		.image {
+			position: relative;
+			transition: ease-in-out 200ms transform;
+			
+			&:hover {
+				transform: scale(1.02);
+				
+				img {
+					filter: blur(5px);
+				}
+			}
+		}
+
+		.hover-text {
+			opacity: 0;
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			top: 0;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+
+			transition: ease-in-out 400ms opacity;
+
+			color: white;
+			background-color: rgba(0, 0, 0, 0.15);
+			font-weight: 600;
+		}
+
+		.image:hover .hover-text {
+			opacity: 0.9;
+		}
+	}
+
+	#projects, #skills {
+		.arrow {
+			top: 250px;
+		}
+	}
+
+/* Skills */
+	#skills {
+
 	}
 
 /* Footer */

@@ -1868,7 +1868,7 @@ body.is-preload #wrapper {
 
 #main > .panel.intro .pic:hover .arrow {
   width: 3em;
-  padding-right: 0.25em;
+  padding-right: 1.25em;
 }
 
 #main > .panel.intro aside {
@@ -1990,7 +1990,7 @@ body.is-preload #wrapper {
   right: 0;
   top: 50%;
   margin-top: -1.375em;
-  width: 2.75em;
+  width: 2em;
   height: 2.75em;
   background: #000;
   background: rgba(0, 0, 0, 0.75);
@@ -2019,6 +2019,64 @@ body.is-preload #wrapper {
   padding-right: 0.25em;
 }
 
+/* Projects */
+#projects .project-list {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#projects .project-list > .project-img {
+  width: 80%;
+}
+
+#projects .image {
+  position: relative;
+  -webkit-transition: ease-in-out 200ms transform;
+  transition: ease-in-out 200ms transform;
+}
+
+#projects .image:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+}
+
+#projects .image:hover img {
+  -webkit-filter: blur(5px);
+          filter: blur(5px);
+}
+
+#projects .hover-text {
+  opacity: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: ease-in-out 400ms opacity;
+  transition: ease-in-out 400ms opacity;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.15);
+  font-weight: 600;
+}
+
+#projects .image:hover .hover-text {
+  opacity: 0.9;
+}
+
+#projects .arrow, #skills .arrow {
+  top: 250px;
+}
+
+/* Skills */
 /* Footer */
 #footer {
   color: rgba(255, 255, 255, 0.45);
