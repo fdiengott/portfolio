@@ -2033,6 +2033,7 @@ body.is-preload #wrapper {
 #projects .image {
   position: relative;
   overflow: hidden;
+  margin-top: 20px;
 }
 
 #projects .image img {
@@ -2056,9 +2057,6 @@ body.is-preload #wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -2066,6 +2064,7 @@ body.is-preload #wrapper {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  padding-top: 50px;
   -webkit-transition: ease-in-out 400ms opacity;
   transition: ease-in-out 400ms opacity;
   color: white;
@@ -2079,12 +2078,28 @@ body.is-preload #wrapper {
 
 #projects .hover-text p {
   width: 80%;
-  margin-top: 40px;
   font-weight: 400;
 }
 
 #projects .image:hover .hover-text {
   opacity: 0.9;
+}
+
+#projects .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#projects .links a, #projects .links a:visited {
+  color: #c25f5f;
+  text-decoration: none;
+  margin: 15px 15px 0 0;
+}
+
+#projects .links a:hover {
+  color: #ac4141;
+  text-decoration: underline;
 }
 
 #projects .arrow, #skills .arrow {
@@ -2094,6 +2109,34 @@ body.is-preload #wrapper {
 /* Skills */
 #skills h2 {
   margin-bottom: 40px;
+}
+
+/* Contact */
+#contact table {
+  text-align: left;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#contact th:first-child {
+  width: 250px;
+  height: 35px;
+}
+
+#contact a, #contact a:visited {
+  color: #c25f5f;
+  text-decoration: none;
+  margin: 15px 15px 0 0;
+  font-weight: 400;
+}
+
+#contact a:hover {
+  color: #ac4141;
+  text-decoration: underline;
 }
 
 /* Footer */
