@@ -251,12 +251,12 @@ input, select, textarea {
 }
 
 .row.gtr-25 {
-  margin-top: -0.3125em;
+  margin-top: -0.75em;
   margin-left: -0.3125em;
 }
 
 .row.gtr-25 > * {
-  padding: 0.3125em 0 0 0.3125em;
+  padding: 0.75em 0 0 0.3125em;
 }
 
 .row.gtr-25.gtr-uniform {
@@ -268,12 +268,12 @@ input, select, textarea {
 }
 
 .row.gtr-50 {
-  margin-top: -0.625em;
+  margin-top: -1.5em;
   margin-left: -0.625em;
 }
 
 .row.gtr-50 > * {
-  padding: 0.625em 0 0 0.625em;
+  padding: 1.5em 0 0 0.625em;
 }
 
 .row.gtr-50.gtr-uniform {
@@ -285,12 +285,12 @@ input, select, textarea {
 }
 
 .row {
-  margin-top: -1.25em;
+  margin-top: -3em;
   margin-left: -1.25em;
 }
 
 .row > * {
-  padding: 1.25em 0 0 1.25em;
+  padding: 3em 0 0 1.25em;
 }
 
 .row.gtr-uniform {
@@ -302,12 +302,12 @@ input, select, textarea {
 }
 
 .row.gtr-150 {
-  margin-top: -1.875em;
+  margin-top: -4.5em;
   margin-left: -1.875em;
 }
 
 .row.gtr-150 > * {
-  padding: 1.875em 0 0 1.875em;
+  padding: 4.5em 0 0 1.875em;
 }
 
 .row.gtr-150.gtr-uniform {
@@ -319,12 +319,12 @@ input, select, textarea {
 }
 
 .row.gtr-200 {
-  margin-top: -2.5em;
+  margin-top: -6em;
   margin-left: -2.5em;
 }
 
 .row.gtr-200 > * {
-  padding: 2.5em 0 0 2.5em;
+  padding: 6em 0 0 2.5em;
 }
 
 .row.gtr-200.gtr-uniform {
@@ -476,11 +476,11 @@ input, select, textarea {
     padding-top: 0em;
   }
   .row.gtr-25 {
-    margin-top: -0.3125em;
+    margin-top: -0.75em;
     margin-left: -0.3125em;
   }
   .row.gtr-25 > * {
-    padding: 0.3125em 0 0 0.3125em;
+    padding: 0.75em 0 0 0.3125em;
   }
   .row.gtr-25.gtr-uniform {
     margin-top: -0.3125em;
@@ -489,11 +489,11 @@ input, select, textarea {
     padding-top: 0.3125em;
   }
   .row.gtr-50 {
-    margin-top: -0.625em;
+    margin-top: -1.5em;
     margin-left: -0.625em;
   }
   .row.gtr-50 > * {
-    padding: 0.625em 0 0 0.625em;
+    padding: 1.5em 0 0 0.625em;
   }
   .row.gtr-50.gtr-uniform {
     margin-top: -0.625em;
@@ -502,11 +502,11 @@ input, select, textarea {
     padding-top: 0.625em;
   }
   .row {
-    margin-top: -1.25em;
+    margin-top: -3em;
     margin-left: -1.25em;
   }
   .row > * {
-    padding: 1.25em 0 0 1.25em;
+    padding: 3em 0 0 1.25em;
   }
   .row.gtr-uniform {
     margin-top: -1.25em;
@@ -515,11 +515,11 @@ input, select, textarea {
     padding-top: 1.25em;
   }
   .row.gtr-150 {
-    margin-top: -1.875em;
+    margin-top: -4.5em;
     margin-left: -1.875em;
   }
   .row.gtr-150 > * {
-    padding: 1.875em 0 0 1.875em;
+    padding: 4.5em 0 0 1.875em;
   }
   .row.gtr-150.gtr-uniform {
     margin-top: -1.875em;
@@ -528,11 +528,11 @@ input, select, textarea {
     padding-top: 1.875em;
   }
   .row.gtr-200 {
-    margin-top: -2.5em;
+    margin-top: -6em;
     margin-left: -2.5em;
   }
   .row.gtr-200 > * {
-    padding: 2.5em 0 0 2.5em;
+    padding: 6em 0 0 2.5em;
   }
   .row.gtr-200.gtr-uniform {
     margin-top: -2.5em;
@@ -683,11 +683,11 @@ input, select, textarea {
     padding-top: 0em;
   }
   .row.gtr-25 {
-    margin-top: -0.3125em;
+    margin-top: -0.75em;
     margin-left: -0.3125em;
   }
   .row.gtr-25 > * {
-    padding: 0.3125em 0 0 0.3125em;
+    padding: 0.75em 0 0 0.3125em;
   }
   .row.gtr-25.gtr-uniform {
     margin-top: -0.3125em;
@@ -696,11 +696,11 @@ input, select, textarea {
     padding-top: 0.3125em;
   }
   .row.gtr-50 {
-    margin-top: -0.625em;
+    margin-top: -1.5em;
     margin-left: -0.625em;
   }
   .row.gtr-50 > * {
-    padding: 0.625em 0 0 0.625em;
+    padding: 1.5em 0 0 0.625em;
   }
   .row.gtr-50.gtr-uniform {
     margin-top: -0.625em;
@@ -709,11 +709,11 @@ input, select, textarea {
     padding-top: 0.625em;
   }
   .row {
-    margin-top: -1.25em;
+    margin-top: -3em;
     margin-left: -1.25em;
   }
   .row > * {
-    padding: 1.25em 0 0 1.25em;
+    padding: 3em 0 0 1.25em;
   }
   .row.gtr-uniform {
     margin-top: -1.25em;
@@ -722,11 +722,11 @@ input, select, textarea {
     padding-top: 1.25em;
   }
   .row.gtr-150 {
-    margin-top: -1.875em;
+    margin-top: -4.5em;
     margin-left: -1.875em;
   }
   .row.gtr-150 > * {
-    padding: 1.875em 0 0 1.875em;
+    padding: 4.5em 0 0 1.875em;
   }
   .row.gtr-150.gtr-uniform {
     margin-top: -1.875em;
@@ -735,11 +735,11 @@ input, select, textarea {
     padding-top: 1.875em;
   }
   .row.gtr-200 {
-    margin-top: -2.5em;
+    margin-top: -6em;
     margin-left: -2.5em;
   }
   .row.gtr-200 > * {
-    padding: 2.5em 0 0 2.5em;
+    padding: 6em 0 0 2.5em;
   }
   .row.gtr-200.gtr-uniform {
     margin-top: -2.5em;
@@ -890,11 +890,11 @@ input, select, textarea {
     padding-top: 0em;
   }
   .row.gtr-25 {
-    margin-top: -0.3125em;
+    margin-top: -0.75em;
     margin-left: -0.3125em;
   }
   .row.gtr-25 > * {
-    padding: 0.3125em 0 0 0.3125em;
+    padding: 0.75em 0 0 0.3125em;
   }
   .row.gtr-25.gtr-uniform {
     margin-top: -0.3125em;
@@ -903,11 +903,11 @@ input, select, textarea {
     padding-top: 0.3125em;
   }
   .row.gtr-50 {
-    margin-top: -0.625em;
+    margin-top: -1.5em;
     margin-left: -0.625em;
   }
   .row.gtr-50 > * {
-    padding: 0.625em 0 0 0.625em;
+    padding: 1.5em 0 0 0.625em;
   }
   .row.gtr-50.gtr-uniform {
     margin-top: -0.625em;
@@ -916,11 +916,11 @@ input, select, textarea {
     padding-top: 0.625em;
   }
   .row {
-    margin-top: -1.25em;
+    margin-top: -3em;
     margin-left: -1.25em;
   }
   .row > * {
-    padding: 1.25em 0 0 1.25em;
+    padding: 3em 0 0 1.25em;
   }
   .row.gtr-uniform {
     margin-top: -1.25em;
@@ -929,11 +929,11 @@ input, select, textarea {
     padding-top: 1.25em;
   }
   .row.gtr-150 {
-    margin-top: -1.875em;
+    margin-top: -4.5em;
     margin-left: -1.875em;
   }
   .row.gtr-150 > * {
-    padding: 1.875em 0 0 1.875em;
+    padding: 4.5em 0 0 1.875em;
   }
   .row.gtr-150.gtr-uniform {
     margin-top: -1.875em;
@@ -942,11 +942,11 @@ input, select, textarea {
     padding-top: 1.875em;
   }
   .row.gtr-200 {
-    margin-top: -2.5em;
+    margin-top: -6em;
     margin-left: -2.5em;
   }
   .row.gtr-200 > * {
-    padding: 2.5em 0 0 2.5em;
+    padding: 6em 0 0 2.5em;
   }
   .row.gtr-200.gtr-uniform {
     margin-top: -2.5em;
@@ -1097,11 +1097,11 @@ input, select, textarea {
     padding-top: 0em;
   }
   .row.gtr-25 {
-    margin-top: -0.3125em;
+    margin-top: -0.75em;
     margin-left: -0.3125em;
   }
   .row.gtr-25 > * {
-    padding: 0.3125em 0 0 0.3125em;
+    padding: 0.75em 0 0 0.3125em;
   }
   .row.gtr-25.gtr-uniform {
     margin-top: -0.3125em;
@@ -1110,11 +1110,11 @@ input, select, textarea {
     padding-top: 0.3125em;
   }
   .row.gtr-50 {
-    margin-top: -0.625em;
+    margin-top: -1.5em;
     margin-left: -0.625em;
   }
   .row.gtr-50 > * {
-    padding: 0.625em 0 0 0.625em;
+    padding: 1.5em 0 0 0.625em;
   }
   .row.gtr-50.gtr-uniform {
     margin-top: -0.625em;
@@ -1123,11 +1123,11 @@ input, select, textarea {
     padding-top: 0.625em;
   }
   .row {
-    margin-top: -1.25em;
+    margin-top: -3em;
     margin-left: -1.25em;
   }
   .row > * {
-    padding: 1.25em 0 0 1.25em;
+    padding: 3em 0 0 1.25em;
   }
   .row.gtr-uniform {
     margin-top: -1.25em;
@@ -1136,11 +1136,11 @@ input, select, textarea {
     padding-top: 1.25em;
   }
   .row.gtr-150 {
-    margin-top: -1.875em;
+    margin-top: -4.5em;
     margin-left: -1.875em;
   }
   .row.gtr-150 > * {
-    padding: 1.875em 0 0 1.875em;
+    padding: 4.5em 0 0 1.875em;
   }
   .row.gtr-150.gtr-uniform {
     margin-top: -1.875em;
@@ -1149,11 +1149,11 @@ input, select, textarea {
     padding-top: 1.875em;
   }
   .row.gtr-200 {
-    margin-top: -2.5em;
+    margin-top: -6em;
     margin-left: -2.5em;
   }
   .row.gtr-200 > * {
-    padding: 2.5em 0 0 2.5em;
+    padding: 6em 0 0 2.5em;
   }
   .row.gtr-200.gtr-uniform {
     margin-top: -2.5em;
@@ -1608,7 +1608,13 @@ ul.actions li:first-child {
   cursor: default;
 }
 
-#nav a {
+@media screen and (max-width: 980px) {
+  #nav a span {
+    display: none;
+  }
+}
+
+#nav a, .nav-icon {
   position: relative;
   display: inline-block;
   color: #ffffff;
@@ -1616,22 +1622,22 @@ ul.actions li:first-child {
   height: 1em;
   line-height: 0.9em;
   font-size: 2.5em;
-  margin: 0 0.25em 0 0.25em;
+  margin: 0 0.25em;
   opacity: 0.35;
   outline: 0;
   -webkit-transition: opacity .25s ease-in-out;
   transition: opacity .25s ease-in-out;
 }
 
-#nav a.icon:before {
+#nav a.icon:before, .nav-icon.icon:before {
   padding-right: 0;
 }
 
-#nav a:before {
+#nav a:before, .nav-icon:before {
   font-size: 0.8em;
 }
 
-#nav a:after {
+#nav a:after, .nav-icon:after {
   content: '';
   display: block;
   position: absolute;
@@ -1645,7 +1651,7 @@ ul.actions li:first-child {
   transition: border-bottom-width .25s ease-in-out;
 }
 
-#nav a span {
+#nav a span, .nav-icon span {
   display: block;
   position: absolute;
   background: #222222;
@@ -1662,7 +1668,7 @@ ul.actions li:first-child {
   margin-left: -2.75em;
 }
 
-#nav a span:after {
+#nav a span:after, .nav-icon span:after {
   content: '';
   display: block;
   position: absolute;
@@ -1674,26 +1680,25 @@ ul.actions li:first-child {
   border-right: solid 0.6em transparent;
 }
 
-#nav a:hover {
+#nav a:hover, .nav-icon:hover {
   opacity: 1.0;
 }
 
-#nav a:hover span {
+#nav a:hover span, .nav-icon:hover span {
   opacity: 1.0;
 }
 
-#nav a.active {
+#nav a.active, .nav-icon.active {
   opacity: 1.0;
 }
 
-#nav a.active:after {
+#nav a.active:after, .nav-icon.active:after {
   border-bottom-width: 0.5em;
 }
 
-@media screen and (max-width: 980px) {
-  #nav a span {
-    display: none;
-  }
+.nav-icon {
+  color: #c97171;
+  text-align: center;
 }
 
 /* Wrapper */
