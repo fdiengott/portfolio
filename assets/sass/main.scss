@@ -175,7 +175,7 @@
 	}
 
 	h1 {
-		font-size: 2.4em;
+		font-size: 2.6em;
 		letter-spacing: -0.015em;
 	}
 
@@ -265,57 +265,6 @@
 			thead {
 				border-bottom: solid 2px #f4f4f4;
 			}
-		}
-	}
-
-/* Form */
-
-	form {
-		label {
-			display: block;
-			font-weight: 400;
-			color: #363636;
-			margin: 0 0 1em 0;
-		}
-
-		input[type="text"],
-		input[type="email"],
-		input[type="password"],
-		select,
-		textarea {
-			-webkit-appearance: none;
-			border: 0;
-			background: #f4f4f4;
-			padding: 0.75em;
-			width: 100%;
-			@include vendor('transition', 'background-color .25s ease-in-out');
-
-			&:focus {
-				background: #f8f8f8;
-			}
-		}
-
-		input[type="text"],
-		input[type="email"],
-		input[type="password"],
-		select {
-			line-height: 1.35em;
-		}
-
-		::-webkit-input-placeholder {
-			color: #999;
-		}
-
-		:-moz-placeholder {
-			color: #999;
-		}
-
-		::-moz-placeholder {
-			color: #999;
-		}
-
-		:-ms-input-placeholder {
-			color: #999;
 		}
 	}
 
@@ -621,7 +570,7 @@
 		margin: 0 auto;
 		min-height: 100vh;
 		max-width: 100%;
-		padding: 4em 0;
+		padding: 2em 0;
 		@include vendor('display', 'flex');
 		@include vendor('flex-direction', 'column');
 		@include vendor('align-items', 'center');
@@ -633,7 +582,7 @@
 		}
 
 		@include breakpoint('<=large') {
-			padding: 3em 0;
+			padding: 1.5em 0;
 			max-width: calc(100% - 6em);
 		}
 
@@ -746,10 +695,11 @@
 						margin-bottom: 0;
 					}
 
-					p {
+					h3 {
 						letter-spacing: -0.015em;
 						font-size: 1.25em;
 						margin: 0.25em 0 0 0;
+						color: #777; 
 					}
 				}
 
@@ -914,6 +864,7 @@
 				color: darken($pink, 5%);
 				text-decoration: none;
 				margin: 15px 15px 0 0;
+				font-weight: 400;
 			}
 			
 			a:hover {

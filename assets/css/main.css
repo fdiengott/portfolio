@@ -1227,7 +1227,7 @@ strong, b, h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 2.4em;
+  font-size: 2.6em;
   letter-spacing: -0.015em;
 }
 
@@ -1311,59 +1311,6 @@ table.default th {
 
 table.default thead {
   border-bottom: solid 2px #f4f4f4;
-}
-
-/* Form */
-form label {
-  display: block;
-  font-weight: 400;
-  color: #363636;
-  margin: 0 0 1em 0;
-}
-
-form input[type="text"],
-form input[type="email"],
-form input[type="password"],
-form select,
-form textarea {
-  -webkit-appearance: none;
-  border: 0;
-  background: #f4f4f4;
-  padding: 0.75em;
-  width: 100%;
-  -webkit-transition: background-color .25s ease-in-out;
-  transition: background-color .25s ease-in-out;
-}
-
-form input[type="text"]:focus,
-form input[type="email"]:focus,
-form input[type="password"]:focus,
-form select:focus,
-form textarea:focus {
-  background: #f8f8f8;
-}
-
-form input[type="text"],
-form input[type="email"],
-form input[type="password"],
-form select {
-  line-height: 1.35em;
-}
-
-form ::-webkit-input-placeholder {
-  color: #999;
-}
-
-form :-moz-placeholder {
-  color: #999;
-}
-
-form ::-moz-placeholder {
-  color: #999;
-}
-
-form :-ms-input-placeholder {
-  color: #999;
 }
 
 /* Section/Article */
@@ -1707,7 +1654,7 @@ ul.actions li:first-child {
   margin: 0 auto;
   min-height: 100vh;
   max-width: 100%;
-  padding: 4em 0;
+  padding: 2em 0;
   display: -moz-flex;
   display: -ms-flex;
   display: -webkit-box;
@@ -1738,7 +1685,7 @@ body.is-preload #wrapper {
 
 @media screen and (max-width: 1280px) {
   #wrapper {
-    padding: 3em 0;
+    padding: 1.5em 0;
     max-width: calc(100% - 6em);
   }
 }
@@ -1894,10 +1841,11 @@ body.is-preload #wrapper {
   margin-bottom: 0;
 }
 
-#main > .panel.intro header p {
+#main > .panel.intro header h3 {
   letter-spacing: -0.015em;
   font-size: 1.25em;
   margin: 0.25em 0 0 0;
+  color: #777;
 }
 
 @media screen and (max-width: 980px) {
@@ -2095,6 +2043,7 @@ body.is-preload #wrapper {
   color: #c25f5f;
   text-decoration: none;
   margin: 15px 15px 0 0;
+  font-weight: 400;
 }
 
 #projects .links a:hover {
