@@ -806,6 +806,32 @@
 					}
 				}
 			}
+
+			
+			.skill-icon {
+				@include vendor('display', 'flex'); 
+				@include vendor('justify-content', 'center'); 
+				@include vendor('align-items', 'center'); 
+				font-size: 80px;
+				line-height: 1;
+				
+				.colored {
+					color: #c97171;
+					@include vendor('display', 'flex'); 
+					@include vendor('justify-content', 'center'); 
+					@include vendor('align-items', 'center'); 
+					@include vendor('flex-direction', 'column'); 
+					
+					&.redux {
+						font-size: 60px;
+					}
+
+					small {
+						font-size: 25px;
+					}
+				}
+			}
+			
 		}
 	}
 

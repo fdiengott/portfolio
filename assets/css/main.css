@@ -1957,6 +1957,58 @@ body.is-preload #wrapper {
   }
 }
 
+#main > .panel .skill-icon {
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 80px;
+  line-height: 1;
+}
+
+#main > .panel .skill-icon .colored {
+  color: #c97171;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+}
+
+#main > .panel .skill-icon .colored.redux {
+  font-size: 60px;
+}
+
+#main > .panel .skill-icon .colored small {
+  font-size: 25px;
+}
+
 /* Footer */
 #footer {
   color: rgba(255, 255, 255, 0.45);
