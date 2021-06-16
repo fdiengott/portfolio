@@ -1797,7 +1797,6 @@ body.is-preload #wrapper {
 
 #main > .panel.intro {
   padding: 0;
-  height: 20em;
   display: -moz-flex;
   display: -ms-flex;
   display: -webkit-box;
@@ -1853,7 +1852,8 @@ body.is-preload #wrapper {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
   -moz-object-fit: cover;
   -webkit-object-fit: cover;
   -ms-object-fit: cover;
@@ -1866,36 +1866,6 @@ body.is-preload #wrapper {
      object-position: center;
 }
 
-#main > .panel.intro .pic .arrow {
-  display: block;
-  position: absolute;
-  right: 0;
-  top: 50%;
-  margin-top: -1.375em;
-  width: 2.75em;
-  height: 2.75em;
-  background: #000;
-  background: rgba(0, 0, 0, 0.75);
-  color: #ffffff;
-  text-align: center;
-  line-height: 2.75em;
-  font-size: 1.5em;
-  z-index: 1;
-  -webkit-transition: width .15s ease-in-out, padding-right .15s ease-in-out;
-  transition: width .15s ease-in-out, padding-right .15s ease-in-out;
-}
-
-#main > .panel.intro .pic .arrow:before {
-  position: relative;
-  padding-right: 0;
-  top: 0.125em;
-}
-
-#main > .panel.intro .pic .arrow span {
-  display: block;
-  text-indent: -9999px;
-}
-
 #main > .panel.intro .pic:hover .arrow {
   width: 3em;
   padding-right: 0.25em;
@@ -1903,7 +1873,7 @@ body.is-preload #wrapper {
 
 #main > .panel.intro aside {
   width: 100%;
-  padding: 3.5em 2.5em;
+  padding: 2em 2.5em;
 }
 
 #main > .panel.intro header {
@@ -2012,6 +1982,41 @@ body.is-preload #wrapper {
 
 #main > .panel .skill-icon .colored small {
   font-size: 25px;
+}
+
+.arrow {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  margin-top: -1.375em;
+  width: 2.75em;
+  height: 2.75em;
+  background: #000;
+  background: rgba(0, 0, 0, 0.75);
+  color: #ffffff;
+  text-align: center;
+  line-height: 2.75em;
+  font-size: 1.5em;
+  z-index: 1;
+  -webkit-transition: width .15s ease-in-out, padding-right .15s ease-in-out;
+  transition: width .15s ease-in-out, padding-right .15s ease-in-out;
+}
+
+.arrow:before {
+  position: relative;
+  padding-right: 0;
+  top: 0.125em;
+}
+
+.arrow span {
+  display: block;
+  text-indent: -9999px;
+}
+
+.arrow:hover {
+  width: 3em;
+  padding-right: 0.25em;
 }
 
 /* Footer */
