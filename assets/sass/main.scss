@@ -670,7 +670,7 @@
 			@include vendor('transition', 'opacity 0.25s ease-in-out');
 			margin-bottom: 0;
 			position: relative;
-			padding: 3.5em 2.5em 2.5em 2.5em;
+			padding: 2.5em 2.5em 2.5em 2.5em;
 			width: 100%;
 
 			&.inactive {
@@ -859,13 +859,17 @@
 
 		.image {
 			position: relative;
-			transition: ease-in-out 200ms transform;
-			
+			overflow: hidden;
+
+			img {
+				transition: ease-in-out 200ms transform;
+			}
+				
 			&:hover {
-				transform: scale(1.02);
 				
 				img {
-					filter: blur(5px);
+					transform: scale(1.02);
+					filter: blur(8px);
 				}
 			}
 		}
@@ -879,12 +883,23 @@
 			display: flex;
 			justify-content: center;
 			align-items: center;
+			flex-direction: column;
 
 			transition: ease-in-out 400ms opacity;
 
 			color: white;
-			background-color: rgba(0, 0, 0, 0.15);
+			background-color: rgba(0, 0, 0, 0.45);
 			font-weight: 600;
+
+			h2 {
+				color: white;
+			}
+
+			p {
+				width: 80%;
+				margin-top: 40px;
+				font-weight: 400;
+			}
 		}
 
 		.image:hover .hover-text {
@@ -900,7 +915,9 @@
 
 /* Skills */
 	#skills {
-
+		h2 {
+			margin-bottom: 40px;
+		}
 	}
 
 /* Footer */

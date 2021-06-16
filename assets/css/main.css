@@ -1781,7 +1781,7 @@ body.is-preload #wrapper {
   transition: opacity 0.25s ease-in-out;
   margin-bottom: 0;
   position: relative;
-  padding: 3.5em 2.5em 2.5em 2.5em;
+  padding: 2.5em 2.5em 2.5em 2.5em;
   width: 100%;
 }
 
@@ -2032,18 +2032,19 @@ body.is-preload #wrapper {
 
 #projects .image {
   position: relative;
+  overflow: hidden;
+}
+
+#projects .image img {
   -webkit-transition: ease-in-out 200ms transform;
   transition: ease-in-out 200ms transform;
 }
 
-#projects .image:hover {
+#projects .image:hover img {
   -webkit-transform: scale(1.02);
           transform: scale(1.02);
-}
-
-#projects .image:hover img {
-  -webkit-filter: blur(5px);
-          filter: blur(5px);
+  -webkit-filter: blur(8px);
+          filter: blur(8px);
 }
 
 #projects .hover-text {
@@ -2061,11 +2062,25 @@ body.is-preload #wrapper {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-transition: ease-in-out 400ms opacity;
   transition: ease-in-out 400ms opacity;
   color: white;
-  background-color: rgba(0, 0, 0, 0.15);
+  background-color: rgba(0, 0, 0, 0.45);
   font-weight: 600;
+}
+
+#projects .hover-text h2 {
+  color: white;
+}
+
+#projects .hover-text p {
+  width: 80%;
+  margin-top: 40px;
+  font-weight: 400;
 }
 
 #projects .image:hover .hover-text {
@@ -2077,6 +2092,10 @@ body.is-preload #wrapper {
 }
 
 /* Skills */
+#skills h2 {
+  margin-bottom: 40px;
+}
+
 /* Footer */
 #footer {
   color: rgba(255, 255, 255, 0.45);
