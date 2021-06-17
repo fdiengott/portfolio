@@ -582,22 +582,22 @@
 		}
 
 		@include breakpoint('<=large') {
-			padding: 1.5em 0;
+			padding: 2.5em 0;
 			max-width: calc(100% - 6em);
 		}
 
 		@include breakpoint('<=medium') {
-			padding: 1.5em 0;
+			padding: 2.5em 0;
 			max-width: calc(100% - 8em);
 		}
 
 		@include breakpoint('<=small') {
-			padding: 1em 0;
+			padding: 2.5em 0;
 			max-width: calc(100% - 2em);
 		}
 
 		@include breakpoint('<=xsmall') {
-			padding: 1em 0;
+			padding: 2.5em 0;
 			max-width: 100%;
 		}
 	}
