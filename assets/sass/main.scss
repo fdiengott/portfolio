@@ -129,7 +129,8 @@
 		}
 
 	body {
-		background-image: url('images/overlay.png'), url('images/bg.jpg');
+		// background-image: url('images/overlay.png'), linear-gradient(to bottom right, #4286f4, #373B44);;
+		background-image: url('images/overlay.png'), linear-gradient(to bottom right, #E490D7, #78A9F7, #373B44);;
 		background-repeat: repeat, no-repeat;
 		background-size: auto, 100% 100%;
 		background-attachment: fixed;
@@ -487,7 +488,7 @@
 		line-height: 0.9em;
 		font-size: 2.5em;
 		margin: 0 0.25em;
-		opacity: 0.35;
+		opacity: 0.45;
 		outline: 0;
 		@include vendor('transition', 'opacity .25s ease-in-out');
 
@@ -664,13 +665,17 @@
 						top: 0;
 						left: 0;
 						width: 100%;
-						// height: 100%;
+						height: 730px;
 						transform: translateY(-50%);
 						@include vendor('object-fit', 'cover');
 						@include vendor('object-position', 'center');
 						
 						@include breakpoint('<=medium') {
 							transform: translateY(0);
+						}
+
+						@include breakpoint('<=xlarge') {
+							height: 550px;
 						}
 					}
 
