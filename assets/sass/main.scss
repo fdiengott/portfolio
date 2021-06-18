@@ -668,6 +668,10 @@
 						transform: translateY(-50%);
 						@include vendor('object-fit', 'cover');
 						@include vendor('object-position', 'center');
+						
+						@include breakpoint('<=medium') {
+							transform: translateY(0);
+						}
 					}
 
 					&:hover {
@@ -713,7 +717,7 @@
 					}
 
 					header {
-						padding: 4em;
+						padding: 1em;
 						text-align: center;
 					}
 				}
@@ -814,6 +818,8 @@
 
 			img {
 				transition: ease-in-out 200ms transform;
+				position: relative;
+				top: 1px;
 			}
 				
 			&:hover {

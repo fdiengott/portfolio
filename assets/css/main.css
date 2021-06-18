@@ -1813,6 +1813,13 @@ body.is-preload #wrapper {
      object-position: center;
 }
 
+@media screen and (max-width: 980px) {
+  #main > .panel.intro .pic img {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
 #main > .panel.intro .pic:hover .arrow {
   width: 3em;
   padding-right: 1.25em;
@@ -1862,7 +1869,7 @@ body.is-preload #wrapper {
     width: 100%;
   }
   #main > .panel.intro header {
-    padding: 4em;
+    padding: 1em;
     text-align: center;
   }
 }
@@ -1987,6 +1994,8 @@ body.is-preload #wrapper {
 #projects .image img {
   -webkit-transition: ease-in-out 200ms transform;
   transition: ease-in-out 200ms transform;
+  position: relative;
+  top: 1px;
 }
 
 #projects .image:hover img {
