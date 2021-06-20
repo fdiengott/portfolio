@@ -129,8 +129,8 @@
 		}
 
 	body {
-		// background-image: url('images/overlay.png'), linear-gradient(to bottom right, #4286f4, #373B44);;
-		background-image: url('images/overlay.png'), linear-gradient(to bottom right, #E490D7, #78A9F7, #373B44);;
+		// background-image: url('images/overlay.png'), url(
+		background-image: url('images/overlay.png'), linear-gradient(to bottom right, #E490D7, #78A9F7, #373B44);
 		background-repeat: repeat, no-repeat;
 		background-size: auto, 100% 100%;
 		background-attachment: fixed;
@@ -560,7 +560,7 @@
 	}
 
 	.nav-icon {
-		color: $pink;
+		color: $highlighted-text;
 		text-align: center;
 	}
 
@@ -752,7 +752,7 @@
 				line-height: 1;
 				
 				.colored {
-					color: $pink;
+					color: $highlighted-text;
 					@include vendor('display', 'flex'); 
 					@include vendor('justify-content', 'center'); 
 					@include vendor('align-items', 'center'); 
@@ -872,14 +872,14 @@
 			display: flex;
 
 			a, a:visited {
-				color: darken($pink, 5%);
+				color: darken($highlighted-text, 5%);
 				text-decoration: none;
 				margin: 15px 15px 0 0;
 				font-weight: 400;
 			}
 			
 			a:hover {
-				color: darken($pink, 15%);
+				color: darken($highlighted-text, 15%);
 				text-decoration: underline;
 			}
 		}
@@ -912,14 +912,14 @@
 		}
 
 		a, a:visited {
-			color: darken($pink, 5%);
+			color: darken($highlighted-text, 5%);
 			text-decoration: none;
 			margin: 15px 15px 0 0;
 			font-weight: 400;
 		}
 		
 		a:hover {
-			color: darken($pink, 15%);
+			color: darken($highlighted-text, 15%);
 			text-decoration: underline;
 		}
 	}

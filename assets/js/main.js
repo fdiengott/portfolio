@@ -13,6 +13,7 @@
 		$panels = $main.children('.panel'),
 		$nav = $('#nav'), $nav_links = $nav.children('a');
 
+
 	// Breakpoints.
 		breakpoints({
 			xlarge:  [ '1281px',  '1680px' ],
