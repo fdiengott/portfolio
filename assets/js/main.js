@@ -51,11 +51,37 @@
 
 			});
 
+		document.onkeydown = (e) => {
+			const key = e.code; 
+
+			if (key === "ArrowRight" || key === "ArrowLeft") {
+				const hrefs = Array.from($panels).map(link => `#${link.id}`); 
+				let currentHref = window.location.hash; 
+				
+				if (currentHref) {
+					let delta = key === "ArrowRight" ? 1 : hrefs.length - 1; 
+
+					let newHref = hrefs[(hrefs.indexOf(currentHref) + delta) % hrefs.length]; 
+					window.location.hash = newHref; 
+				} else {
+					console.log(hrefs);
+					console.log(hrefs.length - 1);
+					window.location.hash = key === "ArrowRight" ? 
+						hrefs[1] : hrefs[hrefs.length - 1]; 
+				}
+				
+			}
+			if (key === "Escape") {
+				window.location.hash = "home"; 
+			}
+		}
+
+
+
 	// Panels.
 
 		// Initialize.
-			(function() {
-
+			function handleLinks() {
 				var $panel, $link;
 
 				// Get panel, link.
@@ -87,7 +113,9 @@
 				// Reset scroll.
 					$window.scrollTop(0);
 
-			})();
+			}
+			
+			handleLinks();
 
 		// Hashchange event.
 			$window.on('hashchange', function(event) {
