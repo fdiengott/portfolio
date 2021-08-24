@@ -1175,12 +1175,14 @@ html {
 }
 
 body {
-  background-image: url("images/overlay.png"), -webkit-gradient(linear, left top, right bottom, from(#E490D7), color-stop(#78A9F7), to(#373B44));
-  background-image: url("images/overlay.png"), linear-gradient(to bottom right, #E490D7, #78A9F7, #373B44);
-  background-repeat: repeat, no-repeat;
-  background-size: auto, 100% 100%;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#fd84eb), color-stop(#78A9F7), to(#373B44));
+  background-image: linear-gradient(to bottom right, #fd84eb, #78A9F7, #373B44);
+  background-repeat: no-repeat;
+  background-size: 500%;
   background-attachment: fixed;
   overflow-y: scroll;
+  -webkit-animation: animate-gradient 20s infinite alternate;
+          animation: animate-gradient 20s infinite alternate;
 }
 
 body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -1188,6 +1190,24 @@ body.is-preload *, body.is-preload *:before, body.is-preload *:after {
   animation: none !important;
   -webkit-transition: none !important;
   transition: none !important;
+}
+
+@-webkit-keyframes animate-gradient {
+  0% {
+    background-position: left;
+  }
+  100% {
+    background-position: right;
+  }
+}
+
+@keyframes animate-gradient {
+  0% {
+    background-position: left;
+  }
+  100% {
+    background-position: right;
+  }
 }
 
 body, input, textarea, select {

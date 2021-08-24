@@ -130,11 +130,12 @@
 
 	body {
 		// background-image: url('images/overlay.png'), url(
-		background-image: url('images/overlay.png'), linear-gradient(to bottom right, #E490D7, #78A9F7, #373B44);
-		background-repeat: repeat, no-repeat;
-		background-size: auto, 100% 100%;
+		background-image: linear-gradient(to bottom right, #fd84eb, #78A9F7, #373B44);
+		background-repeat: no-repeat;
+		background-size: 500%;
 		background-attachment: fixed;
 		overflow-y: scroll;
+		animation: animate-gradient 20s infinite alternate; 
 
 		// Stops initial animations until page loads.
 			&.is-preload {
@@ -144,6 +145,15 @@
 				}
 			}
 
+	}
+
+	@keyframes animate-gradient {
+		0% {
+			background-position: left;
+		}
+		100% {
+			background-position: right;
+		}
 	}
 
 	body, input, textarea, select {
